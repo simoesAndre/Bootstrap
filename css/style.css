@@ -1,0 +1,417 @@
+@charset "UTF-8";
+
+
+/* Reset */
+
+html,
+body,
+div,
+h1, h2, h3, h4, h5, h6,
+p,
+img,
+form, input, fieldset,
+table, tr, td, th,
+header, section, nav, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, figure, header, nav, section{
+    display: block;
+}
+body{
+    line-height: 1;
+}
+
+/* Box model */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* //Reset*/
+
+
+header a {
+    padding: 0 0.50em;
+    color: black;
+    text-decoration: none;
+}
+.cabecalho{
+    text-align: right;
+}
+.cabecalhoLogo1{
+    margin-left: 40px;
+    font-size: 23px;
+    top: 50px;
+}
+.cabecalhoLogo2{
+    font-size: 23px;
+    margin-left: 40px;
+    padding-top: 10px;
+    top: 10px;
+}
+.campoBusca{
+    background-color:#cac8c8;
+    border:solid 1px;
+    border-radius:5px;
+    width:580px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+}
+.descricao9{
+    float:left;
+    background-color:transparent;
+    color: black;
+    padding-left:5px;
+    font: caption;
+    font-size:16px;
+    border:none;
+    padding-top: 10px;
+  }
+.lupa{
+    width: 32px;
+    padding-top: 3px;
+    padding-right: 5px;
+    margin-left: 410px;
+}
+.descricao10{
+    font: caption;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.espaco5{
+    display: inline-block;
+    position: relative;
+}
+.cabecalhoItens{
+    width: 32px;
+}
+
+
+.descricao8{
+    font: caption;
+    font-size: 18px;
+    margin-left: 37px;
+}
+.descricao8 a:hover{
+    border-bottom: 4px solid #333333;
+}
+.links2{
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.banner{
+    width: 1280px;
+    height: 316px;
+    margin-left: 40px;
+}
+
+
+#container {
+  display: inline-block;
+  position: relative;
+}
+
+
+#apostas {
+  top: 220px;
+  right: 30px;
+  left: 90px;
+  font-size: 20px;
+  color: black;
+  text-shadow: 0px 0px 5px black;
+  background-color: white;
+  height: 110px;
+  padding-top: 10px;
+  max-width: 280px;
+}
+.apostas1{
+    width: 320px;
+    height: 320px;
+    padding-right: 10px;
+}
+.apostas2{
+    width: 320px;
+    height: 320px;
+}
+.tituloProduto1{
+    font-size: 18px;
+}
+.preco1{
+    margin-top: 5px;
+}
+.botao2{
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+#estacao {
+    right: 30px;
+    left: 90px;
+    padding-top: 10px;
+  }
+.estacao1{
+    width: 320px;
+    height: 250px;
+    padding-right: 10px;
+}
+.estacao2{
+    width: 320px;
+    height: 250px;
+}
+.tituloProduto2{
+    font: caption;
+    font-size: larger;
+}
+.descricao1{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.convite1{
+    font: caption;
+    text-decoration: underline;
+    font-size: 13px;
+    margin-top: 5px;
+    padding-top: 6px;
+}
+
+
+#vendas {
+    right: 30px;
+    left: 90px;
+    padding-top: 10px;
+  }
+.vendas1{
+    width: 235px;
+    height: 300px;
+    padding-right: 10px;
+}
+.vendas2{
+    width: 235px;
+    height: 300px;
+}
+.descricao2{
+    max-width: 300px;
+    max-height: 18px;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.preco2{
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+
+#container1{
+    background-color: #8080802b;
+    margin-left: 40px;
+    margin-right: 113px;
+    width: 1270px;
+    height: 120px;
+    padding-top: 27px;
+}
+#container2{
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 17px;
+  }
+#container3{
+    display: inline-block;
+    position: relative;
+    margin-left: 17px;
+    margin-right: 17px;
+  }
+#container5{
+    display: inline-block;
+    position: relative;
+    margin-left: 17px;
+    margin-right: 0px;
+    width: 675px;
+    height: 120px;
+    bottom: 78px;
+    left: 520px;
+    background-color: #bdbaba;
+}
+#container15{
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+}
+#container16{
+    display: inline-block;
+    position: relative;
+    margin-left: 17px;
+    margin-right: 17px;
+    top: 45px;
+}
+.rodape1{
+    width: 32px;
+}
+.rodape2{
+    width: 22px;
+}
+.rodape3{
+    width: 32px;
+    padding-bottom: 8px;
+}
+.descricao3{
+    font: caption;
+    font-size: 14px;
+}
+.descricao4{
+    font: caption;
+    font-size: 14px;
+    color: #6f6d6d;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.botao3{
+    color: white;
+    background-color: black;
+    width: 180px;
+    height: 45px;
+    font: caption;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+
+.whats{
+    background-color: grey;
+    width: 1278px;
+    height: 45px;
+    font: inherit;
+    font-size: 18px;
+    padding-top: 12px;
+    margin-right: 113px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+}
+
+
+#container6{
+    margin-left: 40px;
+    margin-right: 113px;
+    height: 300px;
+    width: 1278px;
+    padding-top: 27px;
+}
+#container7{
+    margin-left: 10px;
+    margin-right: 17px;
+    left: 25px;
+}
+#container8{
+    margin-right: 17px;
+}
+#container9{
+    margin-left: 10px;
+    margin-right: 17px;
+    left: 25px;
+    top: 30px;
+}
+#container10{
+    margin-right: 17px;
+    top: 30px;
+}
+#container11{
+    display: inline-block;
+    position: relative;
+    margin-left: 17px;
+    margin-right: 17px;
+    text-align: center;
+    left: 205px;
+    bottom: 48px;
+}
+#container12{
+    display: inline-block;
+    position: relative;
+    margin-left: 17px;
+    margin-right: 17px;
+    text-align: center;
+    left: 275px;
+    bottom: 48px;
+}
+#container13{
+    display: inline-block;
+    position: relative;
+    margin-left: 17px;
+    margin-right: 17px;
+    text-align: center;
+    left: 345px;
+    bottom: 33px;
+}
+#container14{
+    display: inline-block;
+    position: relative;
+    margin-left: 17px;
+    margin-right: 17px;
+    text-align: center;
+    left: 285px;
+    bottom: 130px;
+}
+.descricao5{
+    font: caption;
+    font-size: 13px;
+}
+.descricao6{
+    font: caption;
+    font-size: 13px;
+}
+.descricao7{
+    text-align: initial;
+    font-size: 18px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+
+
+.negrito{
+    font-weight: bold;
+}
+.titulo{
+    font: caption;
+    font-size: 20px;
+}
+.espaco1{
+    padding-top: 13px;
+}
+.espaco2{
+    padding-top: 30px;
+}
+.espaco3{
+    padding-top: 6px;
+}
+.espaco4{
+    margin-top: 15px;
+}
+.margem1{
+    padding-left: 0px;
+    top: 10px;
+}
+.margem2{
+    top: 10px;
+}
+.margem3{
+    margin-left: 40px;
+}
